@@ -15,3 +15,9 @@
 .MenuButton:hover > div {
     background-color: white;
 }
+
+@media (min-width: 500px) {
+    .MenuButton {
+        display: none;
+    }
+}
