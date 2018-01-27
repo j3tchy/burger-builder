@@ -1,0 +1,17 @@
+.MenuButton {
+    border: none;
+    padding: 8px 0;
+    background: none;
+    cursor: pointer;
+}
+
+.MenuButton > div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.MenuButton:hover > div {
+    background-color: white;
+}
